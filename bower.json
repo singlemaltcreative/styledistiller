@@ -1,0 +1,10 @@
+{
+  "name": "StyleDistiller",
+  "version": "1.0",
+  "author": "Single Malt Sites",
+  "homepage": "http://styledistiller.com",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/singlemaltsites/styledistiller.git"
+  }
+}
