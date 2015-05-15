@@ -1,0 +1,35 @@
+// Colors
+
+$color-primary:                   rgba(238, 86, 116, 1) !default;
+$color-secondary:                 lighten($color-primary, 10%) !default;
+$color-tertiary:                  darken($color-primary, 10%) !default;
+$transparent:                     rgba(255, 255, 255, 0) !default;
+
+$red:                             red !default;
+$blue:                            blue !default;
+$green:                           green !default;
+$yellow:                          yellow !default;
+$orange:                          orange !default;
+$purple:                          purple !default;
+$brown:                           brown !default;
+
+$white:                           rgba(255, 255, 255, 1);
+$black:                           rgba(0, 0, 0, 1);
+
+// Type
+
+$type-primary:                    $black;
+$type-light:                      lighten($black, 20%);
+
+$type-bold:                       bold;
+$type-semibold:                   normal;
+$type-italic:                     italic;
+$type-light:                      normal;
+$type-thin:                       normal;
+
+// Space
+
+$horizontal:                      35px;
+$horizontalx2:                    $horizontal:
+
+// UI Treatments & Effects
