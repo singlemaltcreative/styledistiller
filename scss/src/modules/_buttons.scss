@@ -1,0 +1,44 @@
+// use as follows: @include button(arg1, arg2, arg3);
+@mixin button($color-text, $color-border, $color-background) {
+  color: $color-text;
+  border: 1px solid $color-border;
+  background: $color-background;
+  @include radius();
+  font-family: "Open Sans SemiBold";
+  text-transform: uppercase;
+  padding: 8px 5px;
+  display: block;
+  cursor: pointer;
+  text-align: center;
+  @include transition(all .25s linear);
+  &:hover {
+    text-decoration: none;
+    background: darken($color-border, 12%);
+    border: 1px solid darken($color-border, 12%);
+  }
+  &:active {
+    text-decoration: none;
+  }
+}
+
+a.button {
+  @include button($white, $color-primary, $color-primary);
+}
+
+.button.primary {
+  @include button($white, $green, $green);
+}
+
+.button.secondary {
+  @include button($color-primary, $color-primary, $white);
+}
+
+.button.destructive {
+  @include button($pale-red, $pale-red, $white);
+}
+
+.button.hollow {
+  &:hover {
+    color: $white;
+  }
+}

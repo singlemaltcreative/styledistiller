@@ -1,0 +1,7 @@
+// control z-index items in static, relative, absolute, and fixed contexts
+
+@mixin layer($z: 0, $position: static, $display: block) {
+  position: $position;
+  z-index: $z;
+  display: $display;
+}
