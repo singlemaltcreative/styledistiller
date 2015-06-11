@@ -16,6 +16,8 @@ $brown:                           brown !default;
 $white:                           rgba(255, 255, 255, 1);
 $black:                           rgba(0, 0, 0, 1);
 
+$on-dark:                         $white;
+
 // Type
 
 $type-primary:                    $black;
@@ -36,9 +38,13 @@ $horizontalx2:                    $horizontal;
 
 $border-width:                    1px;
 $border-type:                     solid;
-$border-color:                    
+$border-color:                    lighten($black, 50%);
 
-//# Tables
+$border-radius:                   4px;
+
+$mobile-menu-links:               $white;                    
+
+// Tables
 
 $table-background:                $transparent;
 $table-border:                    $black;
