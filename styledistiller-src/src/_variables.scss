@@ -15,6 +15,12 @@ $brown:                           brown !default;
 
 $white:                           rgba(255, 255, 255, 1);
 $black:                           rgba(0, 0, 0, 1);
+$gray:                            lighten($black, 50%);
+
+// UI Colors
+
+$main-background:                  lighten($color-primary, 60%);
+$alt-background:                  lighten($color-primary, 20%);
 
 $on-dark:                         $white;
 
@@ -29,6 +35,14 @@ $type-italic:                     italic;
 $type-light:                      normal;
 $type-thin:                       normal;
 
+$selection-background:            $blue;
+
+  // Type Sizes
+  $font-family-base:              'helvetica';
+  $font-size-base:                100%;
+  $font-family-base-weight:       normal;
+  $line-height-base:              125%;
+
 // Space
 
 $horizontal:                      35px;
@@ -38,11 +52,14 @@ $horizontalx2:                    $horizontal;
 
 $border-width:                    1px;
 $border-type:                     solid;
+<<<<<<< HEAD
 $border-color:                    lighten($black, 50%);
 
 $border-radius:                   4px;
 
 $mobile-menu-links:               $white;                    
+
+$border-color:                    $gray;
 
 // Tables
 
