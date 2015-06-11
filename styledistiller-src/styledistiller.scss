@@ -1,24 +1,24 @@
 @import "bourbon";
 
-@import "src/variables";
+@import "src/_sd-variables";
 
-@import "src/mixins/_flexbox";
-@import "src/mixins/_mixins-misc";
+@import "src/mixins/_sd-flexbox";
+@import "src/mixins/_sd-mixins-misc";
 
-@import "src/modules/_animations";
-@import "src/modules/_buttons";
-@import "src/modules/_forms";
-@import "src/modules/_layers";
-@import "src/modules/_layout";
-@import "src/modules/_reset";
-@import "src/modules/_space";
-@import "src/modules/_tables";
-@import "src/modules/_typography";
+@import "src/modules/_sd-animations";
+@import "src/modules/_sd-buttons";
+@import "src/modules/_sd-forms";
+@import "src/modules/_sd-layers";
+@import "src/modules/_sd-layout";
+@import "src/modules/_sd-reset";
+@import "src/modules/_sd-space";
+@import "src/modules/_sd-tables";
+@import "src/modules/_sd-typography";
 
-@import "src/partials/_header";
-@import "src/partials/_footer";
-@import "src/partials/_navigation";
+@import "src/partials/_sd-header";
+@import "src/partials/_sd-footer";
+@import "src/partials/_sd-navigation";
 
 @media (min-width: 768px) {
-  @import "src/breakpoints/_768up.scss"
+  @import "src/breakpoints/_sd-768up.scss"
 }
