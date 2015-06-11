@@ -1,20 +1,32 @@
 .nav {
   &.slide-over {
-    position: fixed;
-    height: 100%;
-    top: 0;
-    left: -100%;
-    width: 60%;
-    background: $color-primary;
-    a {
-      color: $mobile-menu-links;
-    }
-    &.nav-shown {
-      left: 0;
+    .menu {
+      position: fixed;
+      height: 100%;
+      top: 0;
+      left: -100%;
+      width: 60%;
+      background: $color-primary;
+      a {
+        color: $mobile-menu-links;
+      }
+      &.nav-shown {
+        left: 0;
+      }
     }
   }
   ul {
     list-style-type: none;
   }
+}
+
+.nav-button {
+  display: block;
+  text-align: center;
+  cursor: pointer;
+  @include flex(1 0);
+  @include flexbox();
+  @include flex-flow(column);
+  @include justify-content(center);
 }
 

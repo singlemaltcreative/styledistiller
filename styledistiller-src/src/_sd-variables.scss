@@ -26,6 +26,8 @@ $on-dark:                         $white;
 
 // Type
 
+$font-family:                     "Helvetica Neue", helvetica, sans-serif;
+
 $type-primary:                    $black;
 $type-light:                      lighten($black, 20%);
 
@@ -60,6 +62,8 @@ $border-radius:                   4px;
 $mobile-menu-links:               $white;                    
 
 $border-color:                    $gray;
+
+$nav-button-background:           $black;
 
 // Tables
 

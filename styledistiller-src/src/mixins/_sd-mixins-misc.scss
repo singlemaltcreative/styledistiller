@@ -45,8 +45,6 @@
   border: 1px solid $color-border;
   background: $color-background;
   @include radius();
-  font-family: "Open Sans SemiBold";
-  text-transform: uppercase;
   padding: 8px 5px;
   display: block;
   cursor: pointer;

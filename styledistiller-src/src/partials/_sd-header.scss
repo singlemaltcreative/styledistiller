@@ -1,0 +1,13 @@
+.header {
+  @include flexbox();
+  @include flex-flow(row nowrap);
+  .logo {
+    padding-right: 10px;
+  }
+  .nav {
+    @include flexbox();
+    @include flex-flow(column);
+    @include align-items(stretch);
+    padding: 5px;
+  }
+}
