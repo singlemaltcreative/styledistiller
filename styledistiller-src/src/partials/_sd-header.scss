@@ -2,6 +2,7 @@
   @include flexbox();
   @include flex-flow(row nowrap);
   .logo {
+    width: 70%;
   }
   .nav {
     @include flexbox();

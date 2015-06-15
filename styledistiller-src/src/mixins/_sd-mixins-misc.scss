@@ -49,6 +49,7 @@
   display: block;
   cursor: pointer;
   text-align: center;
+  text-decoration: none;
   @include transition(all .25s linear);
   &:hover {
     text-decoration: none;
