@@ -18,6 +18,7 @@
 @import "src/partials/_sd-header";
 @import "src/partials/_sd-footer";
 @import "src/partials/_sd-navigation";
+@import "src/partials/_sd-element";
 
 @media (min-width: 768px) {
   @import "src/breakpoints/_sd-768up.scss"
