@@ -1,5 +1,6 @@
 .nav {
   &.slide-over {
+    z-index: 500;
     .menu {
       position: fixed;
       height: 100%;
