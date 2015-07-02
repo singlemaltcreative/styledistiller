@@ -22,5 +22,6 @@
 @import "src/partials/_sd-wordpress";
 
 @media (min-width: 768px) {
-  @import "src/breakpoints/_sd-768up.scss"
+  @import "src/modules/_sd-grid";
+  @import "src/breakpoints/_sd-768up";
 }

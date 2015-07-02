@@ -1,6 +1,6 @@
 .page,
 .single {
-  section {
+  > section {
     @include clearfix();
     padding-top: $vertical;
     padding-bottom: $vertical;
