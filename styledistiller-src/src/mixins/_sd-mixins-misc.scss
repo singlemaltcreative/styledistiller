@@ -15,14 +15,6 @@
   padding: $vertical $horizontal-pad;
 }
 
-@mixin box-shadow($x: 2px, $y: 2px, $blur: 5px, $color: rgba(0, 0, 0, .4), $inset: "") {
-  @if ($inset != "") {
-    @include css3-prefix('box-shadow', $inset $x $y $blur $color);
-  } @else {
-    @include css3-prefix('box-shadow', $x $y $blur $color);
-  }
-}
-
 @mixin modal($z-index: 506) {
   z-index: $z-index;
   @include flexbox();
