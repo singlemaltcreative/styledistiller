@@ -1,0 +1,21 @@
+.comment-form {
+  p {
+    label{
+      display: block;
+      margin-bottom: 10px;
+    }
+    input,
+    textarea {
+      width: 80%;
+    }
+    input[type="submit"] {
+      width: auto;
+    }
+  }
+}
+
+.sidebar-widgets {
+  & > div {
+    margin-bottom: $vertical;
+  }
+}

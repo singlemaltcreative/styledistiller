@@ -5,3 +5,18 @@
     }
   }
 }
+
+.has-sidebar {
+  article.page,
+  article.post {
+    float: left;
+    width: 70%;
+  }  
+}
+
+.sidebar {
+  &.in-page {
+    width: 30%;
+    float: left;
+  }
+}
