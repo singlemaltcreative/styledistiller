@@ -17,3 +17,9 @@ article.post {
   padding-left: $horizontal;
   padding-right: $horizontal; 
 }
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
